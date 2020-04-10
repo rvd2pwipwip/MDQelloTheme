@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!--
+<?xml version="1.0" encoding="utf-8"?><!--
 ~ Copyright (C) 2019 The Android Open Source Project
 ~
 ~ Licensed under the Apache License, Version 2.0 (the "License");
@@ -41,23 +40,30 @@
     <!--theme attributes, see https://www.youtube.com/watch?v=Owkf8DhAOSo-->
 
     <!--Color palette-->
+    <color name="qello_200">#7ed4f5</color> <!--Color primary (dark)-->
+    <color name="qello_400">#14b5f0</color> <!--Color primary (light)-->
+    <color name="qello_600">#009adf</color> <!--Color primary variant (dark)-->
+    <color name="qello_700">#0088cc</color> <!--Color primary variant (light)-->
 
-    <color name="purple_200">#bb86fc</color> <!--Color primary (dark)-->
-    <color name="purple_500">#6200ee</color> <!--Color primary (light)-->
-    <color name="purple_600">#4b01d0</color> <!--Color primary variant (dark)-->
-    <color name="purple_700">#3700b3</color> <!--Color primary variant (light)-->
+    <color name="fuschia_400">#d903a3</color> <!--Color secondary-->
+    <color name="fuschia_700">#ae008d</color> <!--Color secondary variant-->
 
-    <color name="green_200">#03dac6</color> <!--Color secondary-->
-    <color name="green_500">#018786</color> <!--Color secondary variant-->
+    <color name="tertiaryColor">#89c250</color>
+    <color name="tertiaryLightColor">#bbf580</color>
+    <color name="tertiaryDarkColor">#58911f</color>
 
-    <color name="red_200">#cf6679</color> <!--Color error (dark)-->
-    <color name="red_600">#b00020</color> <!--Color error (light)-->
+    <color name="ui_light_grey">#c2c2c2</color>
+    <color name="ui_grey">#787878</color>
+    <color name="ui_dark_gray">#1f1f1f</color>
+
+    <color name="red_300">#d7797b</color> <!--Color error (dark)-->
+    <color name="red_700">#c43e3e</color> <!--Color error (light)-->
 
     <!--Color surface (light), color on error (light), -->
     <!--color on surface (dark), color on surface (dark)-->
-    <color name="white_50">#ffffff</color>
+    <color name="ui_almost_white">#fafafa</color>
 
-    <color name="black_800">#121212</color> <!--Color surface (dark)-->
+    <color name="ui_almost_black">#121212</color> <!--Color surface (dark)-->
     <!--Color on secondary (light), color on background (light),-->
     <!--color on surface (light)-->
     <color name="black_900">#000000</color>
